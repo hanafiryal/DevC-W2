@@ -1,0 +1,43 @@
+table {
+	
+		background: #100a1c;
+		background-image: -webkit-radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0, 0, 0, 0) 100%), -webkit-radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+		background-image: radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+		background-attachment: fixed;
+		color: #6cacc5;
+		margin: auto;
+	  
+}
+td{
+	padding: 5px;
+	border: none;
+}
+input[type=text]{
+	padding: 10px;
+	width: 410px;
+	border-style: solid;
+	text-align: right;
+	font-size: 16px;
+}
+input[type=text]:disabled{
+	background-color: white;
+}
+.btn {
+	width: 100px;
+	height: 40px;
+	background-color: #DCDCDC;
+    border: none;
+    color: #E9967A;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.opr{
+		background-color: #ADD8E6;
+}
+.clr{
+	background-color: #CD5C5C;;
+}
+.hsl{
+	background-color: #CD5C5C;
+}
